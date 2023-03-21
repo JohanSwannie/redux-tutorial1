@@ -4,7 +4,7 @@ import { increment, decrement, reset, incrementByAmt } from "./counterSlice";
 import { useState } from "react";
 
 const Counter = () => {
-  const count = useSelector((state) => state.counter.count);
+  const count = useSelector((state) => state.swanniesCounter.count);
   const dispatch = useDispatch();
   const [incrementAmt, setIncrementAmt] = useState(0);
   const addValue = Number(incrementAmt) || 0;
