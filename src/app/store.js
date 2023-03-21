@@ -3,6 +3,6 @@ import swanniesCounterReducer from "../features/counter/counterSlice";
 
 export const store = configureStore({
   reducer: {
-    counter: swanniesCounterReducer,
+    swanniesCounter: swanniesCounterReducer,
   },
 });
