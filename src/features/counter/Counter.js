@@ -23,6 +23,7 @@ const Counter = () => {
       </div>
       <input
         type="text"
+        autoFocus
         value={incrementAmt}
         onChange={(e) => setIncrementAmt(e.target.value)}
       />
